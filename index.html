@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7a1ef31398.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="navbar">
+        <div class="input-container">
+            <input type="text" id="cityInput" class="city-input" placeholder="Search city.....">
+            <button id="searchButton" class="search-button">Search</button>
+        </div>
+        <div class="location-container">
+            <button id="locationButton" class="location-button">
+                <img src="images/location-icon.png" alt=""> Current Location
+            </button>
+        </div>
+    </div>
+
+    <div class="body-container" id="bodyContainer">
+        <div class="content">
+            <div class="weather-details" id="weatherDetails"></div>
+            <div class="total-details" id="totalDetails"></div>
+            <div class="map-container" id="mapContainer"></div>
+        </div>
+        <div class="forecast" id="forecast"></div>
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
