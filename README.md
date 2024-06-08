@@ -25,8 +25,6 @@ This project is about building a web application to show a weather forecast usin
 ![Screenshot 2024-06-08 091450](https://github.com/pratham1916/Weather-App/assets/120631770/72b5deea-de54-499f-89dc-00888f3baf2d)
 ![Screenshot 2024-06-08 092619](https://github.com/pratham1916/Weather-App/assets/120631770/0d87ed76-75fc-4499-9d4c-170be167cd9a)
 
-## Demo
-
 <br/>
 
 ## Getting Started
